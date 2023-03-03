@@ -1,0 +1,33 @@
+Algoritmo "Atividade 2 teste Estagio"
+
+//referente a atividade 2
+//escrito em Portugol no VisualG
+
+Var
+   cont, fib, fib1, fib2, n : inteiro
+   resultFib : caractere
+
+Inicio
+      escreva("Digite qualquer número: ")
+      leia(n)
+limpatela
+
+      fib  <- 0
+      fib1 <- 1
+          para cont <- 1 ate 100 faca
+               se fib = n entao
+                  resultFib <- ("pertence")
+                  cont <- 100
+               fimse
+               fib2 <- fib + fib1
+               fib  <- fib1
+               fib1 <- fib2
+          fimpara
+      se resultFib = ("pertence") entao
+         escreval ("O numero", n, " faz parte da sequencia de Fibonacci!")
+      senao
+           escreval ("O numero", n, " não faz parte da sequencia de Fibonacci!")
+      fimse
+
+
+Fimalgoritmo
