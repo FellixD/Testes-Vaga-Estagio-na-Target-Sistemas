@@ -1,0 +1,20 @@
+algoritmo "Inverte String atividade 5 do teste p/ estágio"
+
+//escrito em portugol para no VisualG
+
+var
+    nome, a : caracter
+    caract1, caract2 : inteiro
+inicio
+
+    Escreva("Digite um nome : ")
+    Leia(nome)
+    caract2 <- compr(nome)
+    a <- ""
+    para caract1 de caract2 ate 1 passo -1 faca
+       a <- a + copia(nome,caract1,1)
+    fimpara
+    Escreva(" ")
+    Escreval(a)
+    
+fimalgoritmo
